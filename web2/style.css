@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: lightseagreen;
+}
+
+#title {
+  color: yellowgreen;
+}
+
+.text {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7d7987;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link {
+  color: cornflowerblue;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.head-title {
+  color: #222222 !important;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 300;
+}
+
+.subtitle {
+  color: coral;
+  font-style: oblique;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 80px;
+}
+
+.image {
+  border-radius: 10px;
+}
+
+.field {
+  width: 200px;
+  height: 30px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.button {
+  min-width: 100px;
+  height: 30px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
