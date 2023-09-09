@@ -31,6 +31,9 @@ img {
 
 .navigation {
   padding: 39px 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 
 .navigation__link {
@@ -41,6 +44,13 @@ img {
 
 .main {
   margin-bottom: 197px;
+}
+
+.content {
+  display: flex;
+  gap: 109px;
+  justify-content: center;
+  align-items: center;
 }
 
 .content_left-side {
@@ -72,6 +82,8 @@ img {
 }
 
 .content__btn-list {
+  display: flex;
+  gap: 20px;
 }
 
 .btn {
@@ -85,4 +97,19 @@ img {
   padding: 15px 30px;
   border: none;
   cursor: pointer;
+}
+
+.btn__play {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer {
+  margin-bottom: 99px;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
 }
