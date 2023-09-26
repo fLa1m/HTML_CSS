@@ -110,6 +110,7 @@ img {
   display: flex;
   justify-content: space-between;
   margin-bottom: 99px;
+  flex-wrap: wrap;
 }
 
 .content2 {
@@ -226,6 +227,98 @@ img {
   .card {
     background: #101725;
     max-width: 362px;
+  }
+
+  .hidden {
+    display: none;
+  }
+}
+
+@media (max-width: 847px) {
+  .container {
+    max-width: 343px;
+  }
+
+  .header {
+    margin-bottom: 64px;
+  }
+
+  .navigation {
+    padding: 22px 0;
+    gap: 16px;
+  }
+
+  .navigation__link {
+    font-size: 14px;
+  }
+
+  .content {
+    flex-direction: column;
+    text-align: center;
+    gap: 128px;
+    align-items: center;
+    margin-bottom: 128px;
+  }
+
+  .content_left-side h2 {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  .content_left-side h1 {
+    font-size: 28px;
+    margin-bottom: 64px;
+  }
+
+  .content_left-side p {
+    margin-bottom: 39px;
+  }
+
+  .content__btn-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .logos {
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 96px;
+  }
+
+  .content2 {
+    flex-direction: column;
+    gap: 68px;
+    text-align: center;
+  }
+
+  .about4 {
+    min-width: 343px;
+  }
+
+  .content2__right-side {
+    width: 343px;
+  }
+
+  .content2__right-side h1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+
+  .content2__right-side p {
+    width: 343px;
+    margin-bottom: 16px;
+  }
+
+  .card-list {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    justify-items: center;
+  }
+
+  .card {
+    background: #101725;
+    max-width: 343px;
   }
 
   .hidden {
